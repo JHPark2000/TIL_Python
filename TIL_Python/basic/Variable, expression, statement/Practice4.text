@@ -1,0 +1,22 @@
+# Imagine that below sentences are activated
+# width =17 ; height = 12.0
+
+# Then, guess the type and result of each statement.
+
+1. width//2
+ - '//' shows quotient of division
+ - 17 // 2 = 8
+ 
+2. width/2.0
+ - I thought that width is integer number and 2.0 is float number. So, there will be syntax error.
+ - However, integer number "width" had automatically changed to float. As a result, the answer is 8.5
+ 
+3. height / 3
+ - height is float number.
+ - its result may be 4.0.
+ - Interpreter told me it was right.
+ 
+4. 1 + 2 * 5
+ - In order of precedence, '*' will be calculated first.
+ - 1 + 10 = 11
+ - Interpreter told me it was right.
