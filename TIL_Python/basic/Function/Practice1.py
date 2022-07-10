@@ -1,11 +1,15 @@
-# 자신의 컴퓨터에서 프로그램을 실행하고 생성된 수를 살펴보자. 
-# 한 번 이상 실행시켜서 매번 새로운 수가 생성되는지 살펴보자.
+# Make the function that calculates pay for working overtime.
+# It needs two parameters : hours, rate
 
-import random
+def computepay(hours, rate):
+  if hours > 40:
+    result = (hours -40) * rate * 1.5 + 40 * rate
+    return result
+  else:
+    result = hours * rate
+    return result
 
-def test():
-  a = random.random()
-  return a
-
-output = test()
-print(output)
+a = float(input("Enter Hours:"))
+b = float(input("Enter Rate:"))
+c = computepay(a,b)
+print("Pay:", c)
