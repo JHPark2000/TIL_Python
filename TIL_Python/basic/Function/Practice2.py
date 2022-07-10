@@ -1,5 +1,6 @@
 # Calculating grade by scores as parameters
 # Two ways to avoid getting non-number data
+# Functions have no return value. It is "void function"
 
 # 1. Try-except
 
