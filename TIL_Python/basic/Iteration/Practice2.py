@@ -1,7 +1,3 @@
-# Make a program getting numbers untill user inputs 'done'
-# Calculating max and min with inputted numbers
-# If user inputs wrong data, code should print "Invalid input"
-
 max = None
 min = None
 
