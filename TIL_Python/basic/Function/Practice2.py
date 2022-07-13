@@ -26,9 +26,7 @@ computegrade(a)
 # 2. type()
 
 def computegrade(score):
-    if type(score) == str:
-        grade = "Bad score"
-    elif type(score) == str and score >= 0.9 and score <= 1:
+    if type(score) == str and score >= 0.9 and score <= 1:
         grade = "A"
     elif type(score) == str score >= 0.8 and score < 0.9:
         grade = "B"
