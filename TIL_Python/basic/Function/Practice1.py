@@ -1,6 +1,3 @@
-# Make the function that calculates pay for working overtime.
-# It needs two parameters : hours, rate
-
 def computepay(hours, rate):
   if hours > 40:
     result = (hours -40) * rate * 1.5 + 40 * rate
