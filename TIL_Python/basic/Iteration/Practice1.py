@@ -1,7 +1,3 @@
-# Make a program getting numbers untill user inputs 'done'
-# Calculating sum, count, average with inputted numbers
-# If user inputs wrong data, code should print "Invalid input"
-
 sum = 0
 count = 0
 
