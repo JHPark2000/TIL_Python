@@ -3,7 +3,7 @@
 
 fname = input("Enter a file name:")
 for line in open(fname):
-    line = line.upper()
-    print(line)
+    li = line.rstrip()
+    print(li.upper())
 
 
