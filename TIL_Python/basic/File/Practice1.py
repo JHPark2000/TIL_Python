@@ -5,5 +5,3 @@ fname = input("Enter a file name:")
 for line in open(fname):
     li = line.rstrip()
     print(li.upper())
-
-
